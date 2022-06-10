@@ -1,0 +1,29 @@
+{
+  "name": "beebot",
+  "version": "1.0.0",
+  "description": "My first Discord bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebinarydigit/beebot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "javascript",
+    "node"
+  ],
+  "author": "BinaryDigit",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/thebinarydigit/beebot/issues"
+  },
+  "homepage": "https://github.com/thebinarydigit/beebot#readme",
+  "dependencies": {
+    "discord.js": "^13.8.0",
+    "dotenv": "^16.0.1"
+  }
+}
