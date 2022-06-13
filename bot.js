@@ -8,8 +8,7 @@ client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`)
 })
 client.on("messageCreate", msg => {
-  if (msg.content === "!quote") {
-
+  if (msg.content == "!kbkquote") {
 
     var quotes = [
       ["I'm not chewing it I'm just sucking it in my mouth. -KilobyteKeith Dead by Daylight 02/20/2020"], 
@@ -345,12 +344,10 @@ client.on("messageCreate", msg => {
       ["It's like putting on your favorite crocheted penis cover - Keke Call of Duty: Warzone 03/18/2022"]
       ];
     
-var currentQuote = "";
 var randomquote = "";
 
 function getQuote() {
 	  randomquote = Math.floor(Math.random() * quotes.length);
-    // currentQuote = quotes[randomquote][0];
     return quotes[randomquote][0];
   }
   
